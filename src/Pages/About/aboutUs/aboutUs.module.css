@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: max-content;
+    width: 80%;
+    margin: auto;
+    padding: 10vh 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.imageBox {
+    width: 60%;
+}
+
+
+
+
+.text p:first-child {
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    background: var(--Main-Colors-Linear, linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text h3 {
+    color: #FFF;
+    font-family: "Chakra Petch";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.24px;
+    width: 708px;
+}
+
+
+.text p:last-child {
+    color: #D1D1D1;
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    width: 625px;
+}
+
+.imageBox {
+    height: max-content;
+    position: relative;
+
+}
+
+
+.imageBox img:last-child {
+    position: absolute;
+    left: -5vh;
+    bottom: 12vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text h3 {
+        font-family: "Chakra Petch";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.16px;
+        width: 90%;
+    }
+
+    .text {
+        width: 95%;
+        gap: 2vh;
+    }
+
+
+    .text p {
+        font-family: "Chakra Petch";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        width: 100% !important;
+    }
+
+
+    .imageBox {
+        width: 100%;
+    }
+
+    .imageBox img:first-child {
+        width: 100%;
+    }
+
+
+    .imageBox img:last-child {
+        position: absolute;
+        left: 1vh;
+        bottom: 9vh;
+    }
+
+}

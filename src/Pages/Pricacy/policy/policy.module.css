@@ -1,0 +1,156 @@
+.container {
+    width: 100%;
+    display: flex;
+    margin: 20vh 0;
+    justify-content: space-between;
+}
+
+
+.text {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.text>p {
+    color: #D1D1D1;
+    text-align: center;
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    width: 623px;
+}
+
+.text span {
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+}
+
+
+.text h3 {
+    text-align: center;
+    font-family: "Chakra Petch";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.24px;
+}
+
+
+.text div h5 {
+    font-family: "Chakra Petch";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.text div p {
+    color: #D1D1D1;
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.text div h5{
+    margin: 1vh 0;
+}
+
+.container img {
+    max-width: 360px;
+    max-height: 520px;
+}
+
+.text div ul li {
+    list-style: disc;
+    margin-left: 2.5vh;
+    color: var(--Greyscale-Grey-2, #D1D1D1);
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.text {
+    gap: 20px;
+}
+
+
+.text div  {
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+
+
+    .container img {
+        width: 107px;
+        height: 200px;
+        position: absolute;
+    }
+
+    .container img:last-child {
+        right: 0;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text h3 {
+        text-align: center;
+        font-family: "Chakra Petch";
+        font-size: 18px;
+        margin: 0;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.16px;
+        width: 100%;
+    }
+
+    .text>p {
+        color: var(--Greyscale-Grey-2, #D1D1D1);
+        text-align: center;
+        font-family: "Chakra Petch";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        width: 75%;
+    }
+
+    .text {
+        width: 90%;
+        margin: auto;
+    }
+
+}

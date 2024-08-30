@@ -1,0 +1,107 @@
+.container {
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-top: 10vh;
+    position: relative;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.BTN {
+    width: max-content;
+}
+
+.text span {
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+}
+
+
+.text h3 {
+    font-family: "Chakra Petch";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.24px;
+}
+
+.text p {
+    width: 625px;
+    color: var(--Greyscale-Grey-2, #D1D1D1);
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+
+.text li {
+    color: #D1D1D1;
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    list-style-type: disc;
+    margin-left: 2.5vh;
+}
+
+
+.container img {
+    position: absolute;
+    right: 0;
+    top: -100px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container img {
+        position: static;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .text {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .container li {
+        width: max-content !important;
+    }
+
+    .text>div * {
+        width: 100%;
+    }
+
+    .text>p {
+        width: 99%;
+    }
+
+}

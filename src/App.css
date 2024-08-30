@@ -1,0 +1,33 @@
+.App {
+  background: rgba(0, 0, 0, 0.877);
+
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2b2a2a;
+  border-radius: 15px;
+  border: 3px solid transparent;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.76)
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  ::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+
+  }
+
+
+}

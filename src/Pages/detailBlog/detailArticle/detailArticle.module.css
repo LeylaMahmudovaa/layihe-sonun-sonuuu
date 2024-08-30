@@ -1,0 +1,145 @@
+.container {
+    width: 30%;
+    height: max-content;
+    gap: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.recentArticle {
+    width: 100%;
+    height: 100%;
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.recentArticle p {
+    font-family: "Chakra Petch";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.box {
+    height: max-content !important;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+.boxs {
+    height: max-content !important;
+}
+
+
+.box>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box img {
+    width: 102px;
+    height: 65.366px;
+}
+
+
+.recentArticleText {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.recentArticleText h5 {
+    border-radius: 11.518px;
+    background: rgba(255, 255, 255, 0.30);
+    width: max-content;
+    text-align: center;
+    font-family: "Chakra Petch";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    display: flex;
+    padding: 1.44px 7.198px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.recentArticleText p {
+    font-family: "Chakra Petch";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.popularHastag {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+
+.popularHastag p {
+    font-family: "Chakra Petch";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.popularHastag div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+
+.popularHastag div h5 {
+    text-align: center;
+    font-family: "Chakra Petch";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    border-radius: 11.518px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    padding: 1.44px 7.198px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .recentArticle {
+        width: 100%;
+    }
+
+
+    .recentArticle p {
+        font-family: "Chakra Petch";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+
+}

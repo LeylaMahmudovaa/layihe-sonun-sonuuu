@@ -1,0 +1,178 @@
+.container {
+    width: 65%;
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+}
+
+
+.container h5 {
+    text-align: center;
+    font-family: "Chakra Petch";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    padding: 2px 10px;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
+
+.container h3 {
+    font-family: "Chakra Petch";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.2px;
+}
+
+.container span {
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+    background: var(--Main-Colors-Linear, linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.container p {
+    color: #D1D1D1;
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.container>img {
+    width: 95%;
+}
+
+
+.images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 48%;
+    height: auto;
+}
+
+
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+
+.tags p {
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.tags span {
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+
+.share {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+}
+
+
+.share p {
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.share>div {
+    display: flex;
+    gap: 2vh;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+
+    .container h5 {
+        text-align: center;
+        font-family: "Chakra Petch";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.30);
+        display: flex;
+        padding: 2px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container h3 {
+        font-family: "Chakra Petch";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.16px;
+    }
+
+    .container span {
+        font-family: "Chakra Petch";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2.24px;
+        text-transform: uppercase;
+    }
+
+    .container>img {
+        width: 100%;
+    }
+
+    .container p {
+        font-family: "Chakra Petch";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+    }
+
+
+}
